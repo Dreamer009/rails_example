@@ -57,6 +57,12 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "foreman"
   gem "web-console"
+  gem "pry-byebug"
+  gem "rubocop", require: false
+  gem "rubocop-minitest"
+  gem "rubocop-performance"
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec"
 end
 
 group :test do
