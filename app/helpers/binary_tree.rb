@@ -6,7 +6,7 @@ class BinaryTree
   end
 
   # Insert value into the tree
-  def insert(value)
+  def add_node(value)
     @root = insert_node(@root, value)
   end
 
